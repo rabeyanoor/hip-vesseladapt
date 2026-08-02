@@ -1,0 +1,17 @@
+# Exclude datasets and raw slices
+hip_ct_data/
+*.zip
+*.jp2
+
+# Exclude python bytecode and temporary build scripts
+__pycache__/
+.ipynb_checkpoints/
+build_*.py
+fix_*.py
+clean_*.py
+run_*.py
+*.pyc
+
+# Local system/editor files
+.DS_Store
+.vscode/
