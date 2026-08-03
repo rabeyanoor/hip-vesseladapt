@@ -1,0 +1,7 @@
+{
+  "dataset_name": "HiP-CT Kidney Microvasculature Benchmark",
+  "source_archive": "_163.52um_K292_kidney_complete-organ_pag-0.15_0.08_jp2_.zip",
+  "extracted_slices": 931,
+  "resolution_microns": 163.52,
+  "imaging_modality": "Phase-Contrast Synchrotron X-ray Computed Tomography"
+}

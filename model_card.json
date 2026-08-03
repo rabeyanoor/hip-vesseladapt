@@ -1,0 +1,15 @@
+{
+  "model_name": "HiP-VesselAdapt",
+  "version": "1.0.0",
+  "architecture": "3D UNet + Multi-Scale Hessian Collapse Detector + Spacing Physics Adapter",
+  "framework": "PyTorch 2.10.0+cu128",
+  "training_data": "Ex-Vivo Human Organ Atlas HiP-CT Synchrotron Kidney Scan",
+  "input_shape": "(B, 1, 32, 32, 32)",
+  "primary_metrics": {
+    "Dice": 0.9488,
+    "clDice": 0.9322,
+    "HD95_mm": 1.61,
+    "CSI_score": 0.4167
+  },
+  "license": "CC-BY-4.0"
+}
