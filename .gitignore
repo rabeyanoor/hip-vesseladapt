@@ -15,3 +15,6 @@ run_*.py
 # Local system/editor files
 .DS_Store
 .vscode/
+
+# Local manuscript draft (do not push to git)
+paper_manuscript.md
